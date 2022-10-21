@@ -11,7 +11,7 @@ class PostsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Post'),
+        title: const Text('Berhasil mencoba List'),
       ),
       body: BlocProvider(
         create: (_) => PostBloc(httpClient: http.Client())..add(PostFetched()),
